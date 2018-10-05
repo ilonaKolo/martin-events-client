@@ -9,7 +9,7 @@
 #Adding multiple categories
 Category.create([{name: 'Muusika'}, {name: 'Teater' }, 
 	{name: 'Sport' }, {name: 'Festival' }, {name: 'EV100' },
-	{name: 'Film' }, {name: 'Kogupere' }, {name: 'Näitus' }, {name: 'Teater' }])
+	{name: 'Film' }, {name: 'Kogupere' }, {name: 'Näitus' }])
 #Adding one event
 Event.create({
    name: "Viljandi Folk",
