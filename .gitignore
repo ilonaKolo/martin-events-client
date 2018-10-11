@@ -32,4 +32,4 @@
 
 #Ignore
 /.ruby-env
-sendgrid.env
+secret.env

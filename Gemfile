@@ -34,11 +34,10 @@ gem 'devise'
 gem 'bootstrap', '~> 4.1.3'
 #Add jquery
 gem 'jquery-rails'
-#My API key: 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 
-# või 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
 #SendGrid.com 
 gem 'sendgrid-ruby'
 gem 'sidekiq'
+gem "recaptcha", require: "recaptcha/rails"
 
 
 
