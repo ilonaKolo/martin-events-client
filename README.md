@@ -61,7 +61,7 @@ This project is licensed under the MIT License
 * Hat tip to anyone whose code was used
 * Inspiration
 
-## Running the Contact form
+## Running the Contact form with REcaptcha;
 
 Cloning git repo:
 ```
