@@ -37,7 +37,7 @@ gem 'jquery-rails'
 #SendGrid.com 
 gem 'sendgrid-ruby'
 gem 'sidekiq'
-gem "recaptcha", require: "recaptcha/rails"
+gem 'recaptcha', require: 'recaptcha/rails'
 
 
 

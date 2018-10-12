@@ -61,4 +61,52 @@ This project is licensed under the MIT License
 * Hat tip to anyone whose code was used
 * Inspiration
 
+## Running the Contact form
 
+Cloning git repo:
+```
+git clone https://github.com/IlonaKolo/martin-events-client
+```
+Opening repo folder:
+```
+cd martin-events-client
+```
+Run command:
+```
+bundle install
+```
+Migrate database(s):
+```
+rake db:migrate
+```
+Import seed data:
+```
+rake db:seed
+```
+Add following gems to your gemfile:
+```
+gem 'sendgrid-ruby'
+gem 'recaptcha', require: 'recaptcha/rails'
+```
+Run command: 
+```
+bundle install
+```
+Go to "sendgrid.com", sign-in/log-in & generate your personal API key;
+Go to "google.com/recaptcha/admin" and generate your site- and secret keys;
+
+Create "secret.env" file to your project folder and add the following content:
+```
+export SENDGRID_API_KEY='YOUR KEY'
+export RECAPTCHA_SITE_KEY='YOUR KEY'
+export RECAPTCHA_SECRET_KEY='YOUR KEY'
+```
+Run command:
+```
+source secret.env
+```
+Start rails server by running:
+```
+rails s
+```
+Open your file on localhost;
