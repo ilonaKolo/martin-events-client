@@ -17,10 +17,9 @@ class Message
 			user: ENV['PUSHOVER_USER'],
 	      	token: ENV['PUSHOVER_TOKEN'],
 	      	title: 'My message',
-	      	name: 'Ilona Kolossova',
+	      	name: 'Ilona K',
 	      	message: 'Ilona sõnum!'
 		}
 	end 
 
 end
- 
