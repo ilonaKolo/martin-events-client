@@ -3,8 +3,8 @@ class ApiController < ApplicationController
   def about
 
   		render json: 
-  		{Name: 'Ilona', Date: Time.now.strftime("%d-%m-%Y"),
-  		 Time: Time.now.strftime("%H:%M"), Fruits: 'Apple, Banana'}  		
+  		{name: 'Ilona', date: Time.now.strftime("%d-%m-%Y"),
+  		 time: Time.now.strftime("%H:%M"), fruits: ['Apple, Banana, Pineapple']}  		
   		
   end
 end
