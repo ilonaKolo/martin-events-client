@@ -13,31 +13,6 @@ You'll need:
 
 *a computer*
 
-### Installing
-
-A step by step series of examples that tell you how to get a development up and running
-
-Cloning git repo:
-```
-git clone https://github.com/sinivaal/martin-events-client
-```
-Opening the repo root folder:
-```
-cd martin-events-client
-```
-Important install (dont' ask why):
-```
-bundle install
-```
-Making database:
-```
-rake db:migrate
-```
-Starting rails server to see your result in a browser:
-```
-rails s
-```
-
 ## Built With
 
 * [Ruby](https://www.ruby-lang.org/en/) - Version 2.5.1p57
@@ -82,11 +57,6 @@ rake db:migrate
 Import seed data:
 ```
 rake db:seed
-```
-Add following gems to your gemfile:
-```
-gem 'sendgrid-ruby'
-gem 'recaptcha', require: 'recaptcha/rails'
 ```
 Run command: 
 ```
