@@ -58,11 +58,6 @@ Import seed data:
 ```
 rake db:seed
 ```
-Add following gems to your gemfile:
-```
-gem 'sendgrid-ruby'
-gem 'recaptcha', require: 'recaptcha/rails'
-```
 Run command: 
 ```
 bundle install
