@@ -46,8 +46,8 @@ gem 'recaptcha', require: 'recaptcha/rails'
 
 # Use Capistrano for deployment
 gem 'capistrano-rails', group: :development
-
 gem 'capistrano-rvm'
+gem 'capistrano-passenger'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
